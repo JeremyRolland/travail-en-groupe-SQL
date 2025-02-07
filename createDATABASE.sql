@@ -84,6 +84,18 @@ CREATE TABLE `SquareGames_db`.`Pawn` (
     FOREIGN KEY (`id_pawnType`) REFERENCES `PawnType`(`id_pawnType`),
     FOREIGN KEY (`id_board`) REFERENCES `Board`(`id_board`)
 );
+CREATE TABLE `SquareGames_db`.`PaymentInfo` (
+    `id_paymentInfo` INT PRIMARY KEY AUTO_INCREMENT,
+    `paymentMethod` ENUM('CARD', 'PAYPAL') NOT NULL,
+    `bankingCardNumber` VARCHAR(16),
+    `cardName` VARCHAR(255),
+    `expiryDate` DATE,
+    `dateOfPurchase` DATE NOT NULL,
+    `tokenAmount` INT NOT NULL,
+    `paypalAccount` VARCHAR(255),
+    `id_userInfo` INT,
+    FOREIGN KEY (`id_userInfo`) REFERENCES `UserInfo`(`id_userInfo`)
+);
 
 
 -- Level 3 Tables
