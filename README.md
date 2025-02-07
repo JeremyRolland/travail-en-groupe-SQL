@@ -38,15 +38,17 @@ Les tables du Niveau 3 représentent des entités liées aux transactions et aux
 - **UserGames**
 - **PawnMove**
 
-Voici les différentes étapes de conception du projet 
+
+###Voici les différentes étapes de conception du projet 
+
 
 ## Dictionnaire
-Le dictionnaire regroupe toute les données qui seront utilisées dans le projet en suivant les convention de nomage et d'écriture
+Le dictionnaire regroupe toute les données qui seront utilisées dans le projet en suivant les conventions de nomage et d'écriture
 
 ![JdrJava](https://github.com/JeremyRolland/travail-en-groupe-SQL/blob/main/img/dictionnaire.png)
 
 ## MCD
-Le MCD permet de définir les relations entre les différentest entités du dictionnaire
+Le MCD permet de définir les relations entre les différen test entités du dictionnaire
 
 ![JdrJava](https://github.com/JeremyRolland/travail-en-groupe-SQL/blob/main/img/MCD.png)
 
