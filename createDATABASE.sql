@@ -1,1 +1,1 @@
-trhyer
+CREATE DATABASE IF NOT EXISTS SquareGames_db;
