@@ -43,16 +43,15 @@ Voici les différentes étapes de conception du projet
 ## Dictionnaire
 Le dictionnaire regroupe toute les données qui seront utilisées dans le projet en suivant les convention de nomage et d'écriture
 
-![JdrJava](https://github.com/JeremyRolland/travail-en-groupe-SQL/blob/maint/img/dictionnaire.png)
-
+![JdrJava](https://github.com/JeremyRolland/travail-en-groupe-SQL/blob/main/img/dictionnaire.png)
 
 ## MCD
 Le MCD permet de définir les relations entre les différentest entités du dictionnaire
 
-![JdrJava](https://github.com/JeremyRolland/travail-en-groupe-SQL/blob/maint/img/MCD.png)
+![JdrJava](https://github.com/JeremyRolland/travail-en-groupe-SQL/blob/main/img/MCD.png)
 
 
 ## MLD
 Le MLD permet de construire le schemas de la base de donnée à partir du MCD
 
-![JdrJava](https://github.com/JeremyRolland/travail-en-groupe-SQL/blob/maint/img/MLD.png)
+![JdrJava](https://github.com/JeremyRolland/travail-en-groupe-SQL/blob/main/img/MLD.png)
