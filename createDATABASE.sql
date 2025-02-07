@@ -1,3 +1,4 @@
+
 CREATE DATABASE IF NOT EXISTS `SquareGames_db`;
 
 -- Level 0 Tables 
@@ -125,3 +126,6 @@ CREATE TABLE `SquareGames_db`.`Cost` (
     FOREIGN KEY (`id_tokenPack`) REFERENCES `TokenPack`(`id_tokenPack`),
     FOREIGN KEY (`id_currency`) REFERENCES `Currency`(`id_currency`)
 );
+
+CREATE DATABASE IF NOT EXISTS SquareGames_db;
+
